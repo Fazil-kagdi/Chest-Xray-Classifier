@@ -1,0 +1,39 @@
+transforms.RandomHorizontalFlip(),
+    transforms.RandomRotation(10),
+    lr = 0.001
+
+Training ResNet-18 from scratch...
+Epoch 1/10, Loss: 0.2288, Val Loss: 0.9340, Val Acc: 75.00%
+Model saved at epoch 1 with Val Loss: 0.9340 and Val Acc: 75.00%
+Epoch 2/10, Loss: 0.1385, Val Loss: 1.6839, Val Acc: 56.25%
+Epoch 3/10, Loss: 0.1272, Val Loss: 3.1896, Val Acc: 50.00%
+Epoch 4/10, Loss: 0.1142, Val Loss: 0.4140, Val Acc: 81.25%
+Model saved at epoch 4 with Val Loss: 0.4140 and Val Acc: 81.25%
+Epoch 5/10, Loss: 0.1225, Val Loss: 2.9437, Val Acc: 56.25%
+Epoch 6/10, Loss: 0.1095, Val Loss: 0.3837, Val Acc: 93.75%
+Model saved at epoch 6 with Val Loss: 0.3837 and Val Acc: 93.75%
+Epoch 7/10, Loss: 0.1042, Val Loss: 2.2212, Val Acc: 50.00%
+Epoch 8/10, Loss: 0.0941, Val Loss: 2.0045, Val Acc: 50.00%
+Epoch 9/10, Loss: 0.0937, Val Loss: 0.4418, Val Acc: 93.75%
+Epoch 10/10, Loss: 0.1013, Val Loss: 1.0138, Val Acc: 56.25%
+
+Fine-tuning Pretrained ResNet-18...
+Epoch 1/10, Loss: 0.2571, Val Loss: 0.5353, Val Acc: 62.50%
+Model saved at epoch 1 with Val Loss: 0.5353 and Val Acc: 62.50%
+Epoch 2/10, Loss: 0.1745, Val Loss: 0.4351, Val Acc: 75.00%
+Model saved at epoch 2 with Val Loss: 0.4351 and Val Acc: 75.00%
+Epoch 3/10, Loss: 0.1597, Val Loss: 0.4555, Val Acc: 75.00%
+Epoch 4/10, Loss: 0.1536, Val Loss: 0.2510, Val Acc: 81.25%
+Model saved at epoch 4 with Val Loss: 0.2510 and Val Acc: 81.25%
+Epoch 5/10, Loss: 0.1321, Val Loss: 0.3000, Val Acc: 81.25%
+Epoch 6/10, Loss: 0.1312, Val Loss: 0.3083, Val Acc: 81.25%
+Epoch 7/10, Loss: 0.1278, Val Loss: 0.3089, Val Acc: 81.25%
+Epoch 8/10, Loss: 0.1335, Val Loss: 0.4757, Val Acc: 75.00%
+Epoch 9/10, Loss: 0.1275, Val Loss: 0.5164, Val Acc: 68.75%
+Epoch 10/10, Loss: 0.1214, Val Loss: 0.3742, Val Acc: 81.25%
+
+
+
+Test Accuracy (ResNet-18 from Scratch): 86.54%
+Test Accuracy (Fine-tuned ResNet-18): 86.22%
+Displaying Misclassified Images...

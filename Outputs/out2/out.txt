@@ -1,0 +1,42 @@
+lr = 0.0001, random flip = 0.2
+
+Training ResNet-18 from scratch...
+Epoch 1/10, Loss: 0.1858, Val Loss: 1.7551, Val Acc: 56.25%
+Model saved at epoch 1 with Val Loss: 1.7551 and Val Acc: 56.25%
+Epoch 2/10, Loss: 0.1019, Val Loss: 0.6229, Val Acc: 75.00%
+Model saved at epoch 2 with Val Loss: 0.6229 and Val Acc: 75.00%
+Epoch 3/10, Loss: 0.0851, Val Loss: 0.8488, Val Acc: 68.75%
+Epoch 4/10, Loss: 0.0726, Val Loss: 0.7642, Val Acc: 50.00%
+Epoch 5/10, Loss: 0.0641, Val Loss: 0.2520, Val Acc: 93.75%
+Model saved at epoch 5 with Val Loss: 0.2520 and Val Acc: 93.75%
+Epoch 6/10, Loss: 0.0542, Val Loss: 0.5119, Val Acc: 75.00%
+Epoch 7/10, Loss: 0.0459, Val Loss: 0.4969, Val Acc: 62.50%
+Epoch 8/10, Loss: 0.0377, Val Loss: 1.1926, Val Acc: 62.50%
+Epoch 9/10, Loss: 0.0343, Val Loss: 0.8444, Val Acc: 68.75%
+Epoch 10/10, Loss: 0.0266, Val Loss: 0.1578, Val Acc: 93.75%
+Model saved at epoch 10 with Val Loss: 0.1578 and Val Acc: 93.75%
+
+Fine-tuning Pretrained ResNet-18...
+Epoch 1/10, Loss: 0.4725, Val Loss: 0.6416, Val Acc: 56.25%
+Model saved at epoch 1 with Val Loss: 0.6416 and Val Acc: 56.25%
+Epoch 2/10, Loss: 0.3318, Val Loss: 0.6338, Val Acc: 56.25%
+Model saved at epoch 2 with Val Loss: 0.6338 and Val Acc: 56.25%
+Epoch 3/10, Loss: 0.2723, Val Loss: 0.5813, Val Acc: 56.25%
+Model saved at epoch 3 with Val Loss: 0.5813 and Val Acc: 56.25%
+Epoch 4/10, Loss: 0.2427, Val Loss: 0.6142, Val Acc: 68.75%
+Model saved at epoch 4 with Val Loss: 0.5813 and Val Acc: 68.75%
+Epoch 5/10, Loss: 0.2210, Val Loss: 0.5809, Val Acc: 68.75%
+Model saved at epoch 5 with Val Loss: 0.5809 and Val Acc: 68.75%
+Epoch 6/10, Loss: 0.2076, Val Loss: 0.5531, Val Acc: 68.75%
+Model saved at epoch 6 with Val Loss: 0.5531 and Val Acc: 68.75%
+Epoch 7/10, Loss: 0.2001, Val Loss: 0.4523, Val Acc: 62.50%
+Model saved at epoch 7 with Val Loss: 0.4523 and Val Acc: 68.75%
+Epoch 8/10, Loss: 0.1878, Val Loss: 0.5804, Val Acc: 56.25%
+Epoch 9/10, Loss: 0.1848, Val Loss: 0.4840, Val Acc: 75.00%
+Model saved at epoch 9 with Val Loss: 0.4523 and Val Acc: 75.00%
+Epoch 10/10, Loss: 0.1732, Val Loss: 0.6984, Val Acc: 62.50%
+
+
+Test Accuracy (ResNet-18 from Scratch): 76.76%
+Test Accuracy (Fine-tuned ResNet-18): 78.69%
+Displaying Misclassified Images...
