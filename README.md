@@ -16,3 +16,19 @@ This project uses ResNet-18 to detect pneumonia from chest X-ray images. Both a 
 
 > ✅ The pretrained model significantly improved classification of **normal** cases while maintaining high pneumonia accuracy.
 
+## ⚙️ Setup
+
+Install required packages:
+
+```bash
+pip install torch torchvision matplotlib numpy
+```
+
+## 📥 Dataset
+
+To train and evaluate the model, you'll need the chest X-ray image dataset.
+
+📦 [Download chest_xray_images.zip from Google Drive](https://drive.google.com/file/d/1oIvqqSvuJ0EVwgg9rk00pRUVRJvkRCED/view?usp=sharing)
+
+After downloading, unzip it and place the folder like this:
+Chest-Xray-Classifier/ ├── chest_xray_images/
